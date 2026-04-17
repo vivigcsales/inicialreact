@@ -1,0 +1,62 @@
+body {
+  font-family:'arial', sans-serif;
+  background-color: #fdc351;
+  padding: 30px;
+  color: #443006;
+  background-image: url('./img/bg.jpeg');
+  background-position: center;
+  background-size: cover;
+  }
+.app {
+ max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #fdc351;
+  padding: 20px 25px 35px 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(215, 135, 6, 0.127);
+}
+h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+h2{
+  margin-top: 20px;
+}
+p{
+  margin: 10px 0;
+}
+input {
+box-sizing: border-box;
+color: #ffcf6f;
+border-color:#443006;
+}
+button{
+  background-color: #443006;
+  color: #fdc351;
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.3s;
+}
+button:hover{
+  opacity: 0.8;
+}
+.complete{
+background-color: #a97600;
+}
+.remove{
+background-color: #c96202;
+}
+.todo-form{
+  padding-bottom: 1.5rem;
+}
+input, select{
+  padding:5px;
+  margin-bottom: 10px;
+  border: 1px solid #443006;
+  border-radius: 5px;
+  width: 75%;
+}
